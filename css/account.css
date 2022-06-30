@@ -1,0 +1,203 @@
+.py-lg-7{
+    padding: 5rem 0;
+}
+.pt-lg-7{
+    padding-top:5rem ;
+}
+.pb-lg-7{
+    padding-bottom: 5rem;
+}
+
+.py-lg-8{
+    padding: 8rem 0;
+}
+
+.pt-lg-8{
+    padding-top: 8rem;
+}
+.pb-lg-8{
+    padding-bottom: 8rem;
+}
+.fs-lg{
+    font-size: 1.1875rem!important;
+}
+.max-width-123{
+    max-width: 123%;
+}
+.max-width-14{
+    max-width: 14rem;
+}
+
+.hero-bg{
+    background-image: url("../images/img/account-bgOne.png"),url("../images/img/account-bgTwo.png");
+    background-repeat: no-repeat;
+    background-position: left,right;
+    background-size: 20rem;
+}
+.bg-primary-desat {
+    background-color: rgb(108, 138, 236) !important;
+}
+.badge-float-outside{
+    position: absolute;
+    top: -0.5rem;
+    right: -1rem;
+}
+.card-mt{
+    margin-top: -25px !important;
+}
+
+.dashboard-img{
+    max-width: 70% !important;
+    position: absolute;
+    z-index: -1;
+    left: 11rem !important;
+    top: 4rem !important;
+}
+.max-width-30{
+    max-width: 29%;
+    height: auto;
+    position: absolute;
+    right: 33px;
+    z-index: 5;
+    top: 105px;
+}
+
+.max-width-31{
+    max-width: 20%;
+    height: auto;
+    position: absolute;
+    right: 84px;
+    top: 145px;
+}
+
+.data-mt{
+    margin-top: 120vh;
+}
+
+.border-top-color{
+    border-top: 2px solid #0081C9;
+}
+
+.icon-check{
+    width: 20px;
+    height: 20px;
+    background: var(--bs-success);
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+}
+
+.card-hover{
+    margin-top: 10px;
+    transition: 0.5s;
+
+}
+
+.card-hover:hover{
+
+    transform: translateY(-11px);
+    box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+    cursor : pointer;
+}
+
+.buy-it{
+    transition: 0.5s !important;
+
+}
+.buy-it-img{
+    transition: 0.5s !important;
+
+}
+
+.buy-it-img:hover{
+    transform: translateY(-5px) !important;
+}
+
+.buy-it:hover{
+    transform: translateY(-5px) !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.list-deco:hover{
+    text-decoration: underline !important;
+    /*text-underline-color: white !important;*/
+}
+
+@media screen and (max-width: 2150px) {
+    .max-width-31 {
+        max-width: 20%;
+        height: auto;
+        position: absolute;
+        right: 92px;
+        top: 156px;
+    }
+
+    .data-mt{
+        margin-top: 77vh !important;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .max-width-31{
+        max-width: 20%;
+        height: auto;
+        position: absolute;
+        right: 84px;
+        top: 145px;
+    }
+    .data-mt{
+        margin-top: 120vh !important;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .data-mt{
+        margin-top: 70vh !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+    .hero-bg{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: left,right;
+        background-size: 20rem;
+    }
+
+    .badge-float-outside{
+        position: absolute;
+        top: -0.5rem;
+        right: 0rem;
+    }
+    .dashboard-img{
+        max-width: 70% !important;
+        position: absolute;
+        z-index: -1;
+        left: 3rem !important;
+        top: 1rem !important;
+    }
+
+    .max-width-30 {
+        max-width: 29%;
+        height: auto;
+        position: absolute;
+        right: 33px;
+        z-index: 5;
+        top: 40px;
+    }
+
+    .max-width-31 {
+        max-width: 20%;
+        height: auto;
+        position: absolute;
+        right: 51px;
+        top: 54px;
+    }
+
+    .data-mt{
+        margin-top: 43vh !important;
+    }
+}

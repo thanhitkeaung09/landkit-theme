@@ -1,0 +1,80 @@
+.bg-light {
+    background-color: #f9fbfd!important;
+}
+
+.bg-secondary-soft{
+    background-color: var(--bs-gray-500) !important;
+}
+
+.py-lg-7{
+    padding: 7rem 0;
+}
+.pt-lg-7{
+    padding-top: 7rem;
+}
+.pb-lg-7{
+    padding-bottom: 7rem;
+}
+
+.bg-gray{
+    background-color: #f1f4f8!important;
+    /*background: red !important;*/
+}
+.subscribe-form{
+    display: flex;
+    justify-content: end;
+}
+.card-ani{
+    transition: transform 1s;
+    animation-delay: 1s;
+}
+.card-ani:hover{
+    transform: scale(1.2);
+    /*transition: all ease-out 1s;*/
+    /*transition-timing-function: linear;*/
+}
+
+
+.card-hover{
+    margin-top: 10px;
+    transition: 0.5s;
+
+}
+
+.card-hover:hover{
+
+    transform: translateY(-11px);
+    box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+    cursor : pointer;
+}
+
+.buy-it{
+    transition: 0.5s !important;
+
+}
+.buy-it-img{
+    transition: 0.5s !important;
+
+}
+
+.buy-it-img:hover{
+    transform: translateY(-5px) !important;
+}
+
+.buy-it:hover{
+    transform: translateY(-5px) !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.list-deco:hover{
+    text-decoration: underline !important;
+    /*text-underline-color: white !important;*/
+}
+
+
+@media screen and (max-width: 576px) {
+    .subscribe-form{
+        display: flex;
+        justify-content: start !important;
+    }
+}

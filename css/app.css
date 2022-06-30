@@ -1,0 +1,364 @@
+:root{
+    --secondary : #869ab8;
+    --getstarted : rgba(80,102,144,.1) !important;
+    --gettex : #506690;
+}
+.list-p{
+    color: var(--secondary);
+}
+a{
+    font-size: 17px !important;
+}
+
+h1{
+    font-size: 48px !important;
+}
+h3{
+    font-size: 21px;
+}
+h4{
+    font-size: 19px !important;
+}
+h6{
+    font-size: 12px !important;
+}
+p{
+    font-size: 21px;
+}
+p.text-muted{
+    font-size: 17px;
+}
+h2{
+    font-size: 31px;
+}
+nav a{
+    font-size: 17px;
+}
+nav img{
+    font-size: 24px;
+}
+button{
+    font-size: 17px;
+}
+.opacity-line{
+    opacity: 0.1;
+}
+.simple-price h1{
+    font-size: 37px;
+}
+.simple-price p{
+    font-size: 21px;
+}
+.hero-img-width{
+    max-width: 121% !important;
+}
+.bg-gradient-light-white {
+    background-image: linear-gradient(180deg,#f9fbfd 0,#fff);
+    border-top: 1px solid #0000001a;
+}
+input .form-check-input{
+    font-size: 17px;
+    line-height: 28px !important;
+    height: 22px !important;
+}
+
+.input-text{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: 1px solid #00000030 !important;
+    border-radius: 0 !important;
+}
+.annaul{
+    font-size: 17px;
+}
+.month{
+    font-size: 17px;
+}
+
+.shadow-light-lg {
+    box-shadow: 0 1.5rem 4rem rgba(22,28,45,.05)!important;
+    border: none !important;
+}
+
+.user p{
+    font-size: 19px;
+}
+.check-list p{
+    font-size: 17px;
+}
+.check{
+    width: 25px;
+    height: 25px;
+    background: rgba(51,94,234,.1);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    color: #42ba96;
+}
+.img-rotate{
+    transform: rotate(-25deg);
+}
+.brunsh{
+    position: absolute;
+    z-index: -1;
+}
+.img-screwed-start{
+    perspective: 1500px;
+    transform-style: preserve-3d;
+}
+.img-screwed-end{
+    backface-visibility: hidden;
+    transform: rotateY(-35deg) rotateX(15deg);
+    border-radius: 0.625rem;
+    box-shadow: 25px 60px 125px -25px rgb(80 102 144 / 10%), 16px 40px 75px -40px rgb(0 0 0 / 20%);
+}
+.img-radius{
+    border-bottom-right-radius: 40%;
+}
+.prev-btn{
+    width: 60px !important;
+    height: 60px !important;
+    background: blue !important;
+    border-radius: 50% !important;
+    top: 30vh !important;
+    left: -6% !important;
+    opacity: 1 !important;
+}
+
+.next-btn{
+    width: 60px !important;
+    height: 60px !important;
+    background: blue !important;
+    border-radius: 50% !important;
+    top: 23.9vh !important;
+    left: 131%;
+    opacity: 1 !important;
+}
+
+.custom-shape-divider-top-1653981787 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1653981787 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 127px;
+    /*z-index: -2;*/
+}
+
+.custom-shape-divider-top-1653981787 .shape-fill {
+    fill: #E61717;
+}
+.bg-illustration{
+    background-image: url("images/img/curveNegative.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.form-check-input{
+    width: 2.5rem !important;
+    height: 1.5rem !important;
+}
+
+.card-standard .text{
+    font-size: 12px;
+}
+
+.dollar{
+    font-size: 31px;
+}
+.num{
+    font-size: 61px;
+}
+
+.b-t-radius{
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+.standard-text{
+    font-size: 12px;
+    /*background: red !important;*/
+    padding: 5px;
+}
+
+.first-card{
+    z-index: 1000;
+}
+
+.second-card{
+    margin-left: -40px;
+    z-index: 100;
+}
+.offer{
+    font-size: 21px !important;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    padding-top: 105px !important;
+    padding-bottom: 105px !important;
+}
+
+.list-section{
+    position: absolute;
+    top: 680vh;
+}
+
+.mt-list{
+    margin-top: 50vh !important;
+}
+.question-icon{
+    width: 30px;
+    height: 30px;
+    background: #42ba96;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+.get-started{
+    color: var(--gettex);
+    background: var(--getstarted);
+}
+.get-text-size{
+    font-size: 43px !important;
+}
+.last-section{
+    margin-top: 96vh;
+}
+.h6-color{
+    color: var(--secondary);
+}
+.buy-it{
+    transition: 0.5s !important;
+
+}
+.buy-it-img{
+    transition: 0.5s !important;
+
+}
+
+.buy-it-img:hover{
+    transform: translateY(-5px) !important;
+}
+
+.buy-it:hover{
+    transform: translateY(-5px) !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.list-deco:hover{
+    text-decoration: underline !important;
+}
+
+/*Redesign Css*/
+.py-lg-5rem{
+    padding: 5rem 0 !important;
+}
+.pb-lg-5rem{
+    padding-bottom: 5rem !important;
+}
+p{
+    margin-bottom: 0 !important;
+}
+.pt-lg-5rem{
+    padding-top: 5rem !important;
+}
+
+.icon-hover{
+    transition: 1s;
+}
+.icon-hover:hover{
+    transform: translateY(-10px);
+}
+
+
+
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 1024px){
+    .container{
+        max-width: 880px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 567px !important;
+    }
+    .py-lg-5rem{
+        padding: 5rem 0 !important;
+    }
+    .min-vh-md-100{
+        height: 100vh !important;
+    }
+    .pb-md-5rem{
+        padding-bottom: 5rem !important;
+    }
+    .next-btn {
+        width: 60px !important;
+        height: 60px !important;
+        background: blue !important;
+        border-radius: 50% !important;
+        top: -19.1vh !important;
+        left: 104% !important;
+        opacity: 1 !important;
+    }
+    .second-card {
+        margin-left: 0px !important;
+        z-index: 100;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 290px !important;
+    }
+    h1 {
+        font-size: 29px !important;
+    }
+    .py-lg-5rem{
+        padding: 3rem 0 !important;
+    }
+    .pb-md-5rem{
+        padding-bottom: 3rem !important;
+    }
+    .card-sm{
+        width: 17rem !important;
+    }
+    .next-btn {
+        width: 60px!important;
+        height: 60px!important;
+        background: blue!important;
+        border-radius: 50%!important;
+        top: -5.1vh!important;
+        left: 111%!important;
+        opacity: 1!important;
+    }
+
+    .prev-btn {
+        width: 60px !important;
+        height: 60px !important;
+        background: blue !important;
+        border-radius: 50% !important;
+        top: 30vh !important;
+        left: -10% !important;
+        opacity: 1 !important;
+    }
+    .question-icon {
+        width: 60px;
+        height: 30px;
+        background: #42ba96;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 50%;
+    }
+    .pt-lg-5rem{
+        padding-top: 3rem !important;
+    }
+}
