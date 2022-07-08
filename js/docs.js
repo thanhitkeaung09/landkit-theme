@@ -5,6 +5,47 @@ import * as bootstrap from 'bootstrap';
 import 'slick-carousel/slick/slick.min'
 import 'jquery/dist/jquery.min'
 import ScrollReveal from "scrollreveal";
+import Filterizr from "filterizr";
+
+let listOne = document.getElementById("listOne");
+let listTwo = document.getElementById("listTwo");
+let listThree = document.getElementById("listThree");
+let listFour = document.getElementById("listFour");
+
+listOne.addEventListener('click',function (){
+    listOne.classList.add('bg-primary')
+    listTwo.classList.remove('bg-primary')
+    listThree.classList.remove('bg-primary')
+    listFour.classList.remove('bg-primary')
+    console.log("hey")
+})
+
+listTwo.addEventListener('click',function (){
+    listOne.classList.remove('bg-primary')
+    listTwo.classList.add('bg-primary')
+    listThree.classList.remove('bg-primary')
+    listFour.classList.remove('bg-primary')
+    console.log("hey")
+})
+
+listThree.addEventListener('click',function (){
+    listOne.classList.remove('bg-primary')
+    listTwo.classList.remove('bg-primary')
+    listThree.classList.add('bg-primary')
+    listFour.classList.remove('bg-primary')
+    console.log("hey")
+})
+
+listFour.addEventListener('click',function (){
+    listOne.classList.remove('bg-primary')
+    listTwo.classList.remove('bg-primary')
+    listThree.classList.remove('bg-primary')
+    listFour.classList.add('bg-primary')
+    console.log("hey")
+})
+
+
+const filterizr = new Filterizr('.filter-container');
 
 // scrollreveal
 var SlideUp = {
@@ -55,3 +96,5 @@ tabCompo.addEventListener("click", function (e) {
 $(document).ready(function(){
     $('.your-class').slick();
 });
+
+

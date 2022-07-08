@@ -2,6 +2,17 @@
     background-color: #f9fbfd!important;
 }
 
+.filter-term{
+    opacity: 1;
+    transform: scale(1) translate3d(0px, 0px, 0px);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    position: absolute;
+    /*width: 330px !important;*/
+    transition: all 0.5s ease-out 0ms, width 1ms ease 0s;
+}
+
 .bg-secondary-soft{
     background-color: var(--bs-gray-500) !important;
 }
@@ -55,10 +66,12 @@
 .buy-it-img{
     transition: 0.5s !important;
 
+
 }
 
 .buy-it-img:hover{
     transform: translateY(-5px) !important;
+    cursor: pointer;
 }
 
 .buy-it:hover{
