@@ -13,36 +13,68 @@ let listThree = document.getElementById("listThree");
 let listFour = document.getElementById("listFour");
 
 listOne.addEventListener('click',function (){
+
     listOne.classList.add('bg-primary')
-    // listOne.classList.add('text-white')
+    listOne.classList.add('text-white')
     listTwo.classList.remove('bg-primary')
     listThree.classList.remove('bg-primary')
     listFour.classList.remove('bg-primary')
-    console.log("hey")
+    listTwo.classList.remove('text-white')
+    listThree.classList.remove('text-white')
+    listFour.classList.remove('text-white')
+    listTwo.classList.add('text-black')
+    listThree.classList.add('text-black')
+    listFour.classList.add('text-black')
+
+
 })
 
 listTwo.addEventListener('click',function (){
+    listTwo.classList.remove('text-black')
     listOne.classList.remove('bg-primary')
+    listOne.classList.remove('text-white')
+    listOne.classList.add('text-black')
     listTwo.classList.add('bg-primary')
+    listTwo.classList.add('text-white')
     listThree.classList.remove('bg-primary')
     listFour.classList.remove('bg-primary')
-    console.log("hey")
+    listThree.classList.remove('text-white')
+    listFour.classList.remove('text-white')
+    listThree.classList.add('text-black')
+    listFour.classList.add('text-black')
+
 })
 
 listThree.addEventListener('click',function (){
+    listOne.classList.add('text-black')
+    listThree.classList.remove('text-black')
     listOne.classList.remove('bg-primary')
+    listOne.classList.remove('text-white')
     listTwo.classList.remove('bg-primary')
+    listTwo.classList.remove('text-white')
+
     listThree.classList.add('bg-primary')
+    listThree.classList.add('text-white')
     listFour.classList.remove('bg-primary')
-    console.log("hey")
+    listFour.classList.remove('text-white')
+    listTwo.classList.add('text-black')
+    listFour.classList.add('text-black')
+
 })
 
 listFour.addEventListener('click',function (){
+    listOne.classList.add('text-black')
+    listFour.classList.remove('text-black')
     listOne.classList.remove('bg-primary')
+    listOne.classList.remove('text-white')
     listTwo.classList.remove('bg-primary')
+    listTwo.classList.remove('text-white')
     listThree.classList.remove('bg-primary')
+    listThree.classList.remove('text-white')
     listFour.classList.add('bg-primary')
-    console.log("hey")
+    listThree.classList.add('text-black')
+    listTwo.classList.add('text-black')
+
 })
 
 
