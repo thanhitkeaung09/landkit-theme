@@ -71,8 +71,15 @@ document.getElementById("leftBtn").addEventListener("click",function (){
     carouselOne.prev();
 
 })
+document.getElementById("leftCarBtn").addEventListener("click",function (){
+    carouselOne.prev();
+
+})
 
 document.getElementById("rightBtn").addEventListener("click",function (){
+    carouselOne.next();
+})
+document.getElementById("rightCarBtn").addEventListener("click",function (){
     carouselOne.next();
 })
 

@@ -336,7 +336,7 @@
 
 <!--customer Section-->
 <div class="container pb-lg-5rem pb-md-5rem">
-    <div class="row justify-content-center pb-lg-5rem">
+    <div class="row justify-content-center pb-lg-5rem ">
         <div class="col-lg-7">
             <div class="user text-center content">
                 <h2 class="fw-light mb-0">Our customers are our biggest fans.</h2>
@@ -346,7 +346,8 @@
     </div>
 
 <!--    Carousel Section-->
-    <div class="row shadow-lg g-0 content buy-it-img" >
+    <div class="row shadow-lg g-0 content buy-it-img position-relative" >
+
         <div class="col-lg-6">
             <div class="" >
                 <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="">
@@ -358,10 +359,11 @@
                             <img src="images/img/photo-26.jpg" class="d-block w-100 img-radius" alt="...">
                         </div>
                     </div>
-                    <button class="carousel-control-prev prev-btn" type="button" data-bs-target="#carouselExampleControls" id="leftBtn"  data-bs-slide="prev">
-                        <i class="bi bi-arrow-left fs-6" aria-hidden="true"></i>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
+<!--                    <button class="carousel-control-prev prev-btn" type="button" data-bs-target="#carouselExampleControls" id="leftBtn"  data-bs-slide="prev">-->
+<!--                        <i class="bi bi-arrow-left fs-6" aria-hidden="true"></i>-->
+<!--                        <span class="visually-hidden">Previous</span>-->
+<!--                    </button>-->
+
 
                 </div>
             </div>
@@ -369,7 +371,7 @@
 
 
         <div class="col-lg-5">
-            <div class="h-100 p-5">
+            <div class="h-100 p-5 carbtnControl">
                 <div id="carouselExampleSlidesOnly" class="carousel slide animate__animated h-100 d-flex align-items-center" data-bs-ride="">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -401,14 +403,28 @@
 
                     </div>
 
-                    <button class="carousel-control-next next-btn" type="button" data-bs-target="#carouselExampleControls" id="rightBtn" data-bs-slide="next">
-                        <span class="bi bi-arrow-right fs-6" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+
                 </div>
+                <button class="carousel-control-prev prev-btn d-block d-lg-none" type="button" data-bs-target="#carouselExampleControls" id="leftCarBtn"  data-bs-slide="prev">
+                    <i class="bi bi-arrow-left fs-6" aria-hidden="true"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next next-btn d-block d-lg-none" type="button" data-bs-target="#carouselExampleControls" id="rightCarBtn" data-bs-slide="next">
+                    <span class="bi bi-arrow-right fs-6" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
+        <button class="carousel-control-prev prev-btn d-none d-lg-block" type="button" data-bs-target="#carouselExampleControls" id="leftBtn"  data-bs-slide="prev">
+            <i class="bi bi-arrow-left fs-6" aria-hidden="true"></i>
+            <span class="visually-hidden">Previous</span>
+        </button>
 
+        <button class="carousel-control-next next-btn d-none d-lg-block" type="button" data-bs-target="#carouselExampleControls" id="rightBtn" data-bs-slide="next">
+            <span class="bi bi-arrow-right fs-6" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 </div>
 

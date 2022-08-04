@@ -121,9 +121,12 @@ input .form-check-input{
     height: 60px !important;
     background: blue !important;
     border-radius: 50% !important;
-    top: 30vh !important;
-    left: -6% !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: -3% !important;
+    margin: auto !important;
     opacity: 1 !important;
+    position: absolute;
 }
 
 .next-btn{
@@ -131,9 +134,13 @@ input .form-check-input{
     height: 60px !important;
     background: blue !important;
     border-radius: 50% !important;
-    top: 23.9vh !important;
-    left: 131%;
+    top: 0 !important;
+    bottom: 0 !important;
+    right: -3% !important;
+    margin: auto !important;
     opacity: 1 !important;
+    position: absolute !important;
+
 }
 
 .custom-shape-divider-top-1653981787 {
@@ -287,6 +294,14 @@ p{
         max-width: 880px !important;
     }
 }
+@media screen and (max-width: 978px){
+    .carbtnControl{
+        position: relative;
+    }
+    .img-radius{
+        border-bottom-right-radius: 0% !important;
+    }
+}
 @media screen and (max-width: 768px) {
     .container{
         max-width: 567px !important;
@@ -300,15 +315,16 @@ p{
     .pb-md-5rem{
         padding-bottom: 5rem !important;
     }
-    .next-btn {
-        width: 60px !important;
-        height: 60px !important;
-        background: blue !important;
-        border-radius: 50% !important;
-        top: -19.1vh !important;
-        left: 104% !important;
-        opacity: 1 !important;
-    }
+
+    /*.next-btn {*/
+    /*    width: 60px !important;*/
+    /*    height: 60px !important;*/
+    /*    background: blue !important;*/
+    /*    border-radius: 50% !important;*/
+    /*    top: -19.1vh !important;*/
+    /*    left: 104% !important;*/
+    /*    opacity: 1 !important;*/
+    /*}*/
     .second-card {
         margin-left: 0px !important;
         z-index: 100;
@@ -331,25 +347,25 @@ p{
     .card-sm{
         width: 17rem !important;
     }
-    .next-btn {
-        width: 60px!important;
-        height: 60px!important;
-        background: blue!important;
-        border-radius: 50%!important;
-        top: -5.1vh!important;
-        left: 111%!important;
-        opacity: 1!important;
-    }
+    /*.next-btn {*/
+    /*    width: 60px!important;*/
+    /*    height: 60px!important;*/
+    /*    background: blue!important;*/
+    /*    border-radius: 50%!important;*/
+    /*    top: -5.1vh!important;*/
+    /*    left: 111%!important;*/
+    /*    opacity: 1!important;*/
+    /*}*/
 
-    .prev-btn {
-        width: 60px !important;
-        height: 60px !important;
-        background: blue !important;
-        border-radius: 50% !important;
-        top: 30vh !important;
-        left: -10% !important;
-        opacity: 1 !important;
-    }
+    /*.prev-btn {*/
+    /*    width: 60px !important;*/
+    /*    height: 60px !important;*/
+    /*    background: blue !important;*/
+    /*    border-radius: 50% !important;*/
+    /*    top: 30vh !important;*/
+    /*    left: -10% !important;*/
+    /*    opacity: 1 !important;*/
+    /*}*/
     .question-icon {
         width: 60px;
         height: 30px;
