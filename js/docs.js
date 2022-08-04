@@ -14,6 +14,7 @@ let listFour = document.getElementById("listFour");
 
 listOne.addEventListener('click',function (){
     listOne.classList.add('bg-primary')
+    // listOne.classList.add('text-white')
     listTwo.classList.remove('bg-primary')
     listThree.classList.remove('bg-primary')
     listFour.classList.remove('bg-primary')
