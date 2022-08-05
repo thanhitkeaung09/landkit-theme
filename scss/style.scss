@@ -9,11 +9,12 @@ $success : #42ba96;
 $warning : rgb(241,244,248);
 $danger : #1b2a4e;
 
+
 $container-max-widths: (
         sm: 540px,
         md: 720px,
         lg: 960px,
-        //xl: 1140px,
+        xl: 1140px,
 
 );
 
@@ -56,6 +57,9 @@ $container-max-widths: (
   --my-btn-shadow: 0 4px 11px rgb(0 128 96 / 35%);
   --border-light: rgba(0, 34, 28, 0.1);
   --border-dark: rgba(255, 255, 255, 0.1);
+}
+.fw-400{
+  font-weight: 400 !important;
 }
 
 .highlight-span {
