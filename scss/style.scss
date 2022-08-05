@@ -35,6 +35,7 @@ $container-max-widths: (
   --my-fs-md: 1.125rem;
   --my-fs-sm: 0.875rem;
   --my-fs-lg: 1.25rem;
+  --my-fs-xl:44px;
   --text-span: 0.75rem;
   --my-secondary: #51596c;
 
@@ -60,6 +61,7 @@ $container-max-widths: (
 }
 .fw-400{
   font-weight: 400 !important;
+  font-size: var(--my-fs-xl);
 }
 
 .highlight-span {
@@ -173,19 +175,9 @@ $container-max-widths: (
   visibility: visible;
 }
 
-
-
-
-
-
-//@media (max-width: 767px) {
-//  .mobile-nav {
-//    width: 75%;
-//  }
-//}
-
-//@media (max-width: 500px) {
-//  .mobile-nav {
-//    width: 90%;
-//  }
-//}
+.list-hov{
+  transition: 1s;
+}
+.list-hov:hover{
+  margin-left: 15px !important;
+}
